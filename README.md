@@ -499,3 +499,7 @@ docker compose down
 - **Scheduled runs never fire**: confirm the `scheduler` container is running
   (`docker compose up -d scheduler`); it is the only thing that creates runs from
   `Schedule` rows, there are no frontend timers.
+
+## Author
+
+Dhruv Gaur
